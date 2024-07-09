@@ -2,6 +2,7 @@
 body{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 /* header styles start */
 /* .header-container */
@@ -311,4 +312,131 @@ line-height: 26px; /* 162.5% */
 }
 iframe{
   border-radius: 45px;
+}
+.current-target{
+  width: 1140px;
+  height: 460px;
+  margin:151px auto;
+  border: 2px solid blueviolet;
+  display: flex;
+  flex-direction: column;
+}
+.current-target-top{
+  width: 946px;
+  height: 113px;
+  border:2px solid red;
+  margin: 0 auto;
+}
+.current-target-bottom{
+  width: 1140px;
+  height: 300px;
+  border: 2px solid black;
+  margin-top: 48px;
+  display: flex;
+  gap:24px;
+}
+.current-target-top h2{
+color: #0D1321;
+text-align: center;
+margin: 0 auto;
+font-family: "Azeret Mono";
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.current-target-top p{
+color: #0D1321;
+padding-top: 15px;
+text-align: center;
+font-family: "Azeret Mono";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+.html-container{
+  width: 364px;
+  height: 300px;
+  border: 2px solid blue;
+  padding:40px 40px 40px 40px;
+  border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+box-sizing: border-box;
+}
+.css-container{
+  width: 364px;
+  height: 300px;
+  border: 2px solid red;
+border-radius: 16px;
+background: rgba(0, 76, 232, 0.05);
+box-sizing: border-box;
+padding:40px 40px 40px 40px;
+
+}
+.js-container{
+  width: 364px;
+  height: 300px;
+  border: 2px solid red;
+  box-sizing: border-box;
+padding:40px 40px 40px 40px;
+border-radius: 16px;
+background: rgba(255, 223, 0, 0.05);
+}
+.html-container p{
+color: #0D1321;
+font-family: "Azeret Mono";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.html-container h2{
+  color: #0D1321;
+font-family: "Azeret Mono";
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: 36px; /* 150% */
+}
+/* .html-container link{
+color: #0D1321;
+font-family: "Azeret Mono";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-decoration-line: underline;
+} */
+ .css-container h2{
+  color: #0D1321;
+font-family: "Azeret Mono";
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: 36px; /* 150% */
+ }
+ .css-container p{
+  color: #0D1321;
+font-family: "Azeret Mono";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+ }
+.css-container p{
+  color: #0D1321;
+font-family: "Azeret Mono";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.css-container h2{
+  color: #0D1321;
+font-family: "Azeret Mono";
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: 36px; /* 150% */
 }

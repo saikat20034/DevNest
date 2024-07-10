@@ -647,3 +647,6 @@ text-decoration-line: underline;
   font-weight: 600;
   line-height: normal;
 }
+.footer-container img{
+  margin-right: 24px;
+}

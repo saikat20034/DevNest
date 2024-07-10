@@ -119,6 +119,8 @@ body {
 .dev-top {
   width: 946px;
   height: 336px;
+  border-radius: 16px;
+background: linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
   /* padding-left: 48px; */
   margin: 0 auto 32px ;
   /* border: 2px solid greenyellow; */
@@ -126,6 +128,8 @@ body {
   justify-content: space-between;
 }
 .dev-mid {
+  border-radius: 16px;
+background: linear-gradient(270deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
   width: 946px;
   height: 336px;
   margin: 0 auto 32px;
@@ -134,6 +138,8 @@ body {
   justify-content: space-between;
 }
 .dev-bottom {
+  border-radius: 16px;
+background: linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
   width: 946px;
   height: 336px;
   margin: 0 auto 48px;

@@ -104,6 +104,8 @@ body {
 
 /* dev-styles-starts */
 .dev-container {
+  border-radius: 16px;
+background: rgba(13, 19, 33, 0.02);
   width: 1140px;
   height: 1393px;
   margin: 0 auto;

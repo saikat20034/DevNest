@@ -73,6 +73,7 @@ body {
   padding-right: 73px;
   text-align: center;
   color: #0d1321;
+  opacity: 0.7;
   font-family: 'Azeret Mono';
   font-size: 16px;
   font-style: normal;
@@ -106,19 +107,21 @@ body {
   width: 1140px;
   height: 1393px;
   margin: 0 auto;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .dev-header {
   width: 820px;
   height: 113px;
   margin: 80px auto 48px;
-  border: 2px solid black;
+  /* border: 2px solid black; */
+
 }
 .dev-top {
   width: 946px;
   height: 336px;
-  margin: 0 auto 32px;
-  border: 2px solid greenyellow;
+  /* padding-left: 48px; */
+  margin: 0 auto 32px ;
+  /* border: 2px solid greenyellow; */
   display: flex;
   justify-content: space-between;
 }
@@ -126,7 +129,7 @@ body {
   width: 946px;
   height: 336px;
   margin: 0 auto 32px;
-  border: 2px solid blueviolet;
+  /* border: 2px solid blueviolet; */
   display: flex;
   justify-content: space-between;
 }
@@ -134,45 +137,62 @@ body {
   width: 946px;
   height: 336px;
   margin: 0 auto 48px;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   display: flex;
   justify-content: space-between;
 }
 .top-left {
   width: 477px;
   height: 229px;
-  margin: 48px auto;
-  border: 2px solid red;
+  margin:48px;
+  /* border: 2px solid red; */
 }
 .top-right {
   width: 377px;
   height: 229px;
   margin: 48px auto;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .mid-left {
   width: 377px;
   height: 229px;
   margin: 48px auto;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .mid-right {
   width: 477px;
   height: 229px;
   margin: 48px auto;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .bottom-left {
   width: 477px;
   height: 229px;
   margin: 48px auto;
-  border: 2px solid red;
+  /* border: 2px solid red; */
+}
+.bottom-left h4{
+  color: rgba(13, 19, 33, 0.70);
+font-family: "Azeret Mono";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px; /* 150% */
+}
+.bottom-left h6{
+  color: #0D1321;
+  opacity: 0.7;
+font-family: "Azeret Mono";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
 }
 .bottom-right {
   width: 377px;
   height: 229px;
   margin: 48px auto;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .dev-heading {
   color: #0d1321;
@@ -187,6 +207,7 @@ body {
 .dev-paragraph {
   margin: 5px;
   color: #0d1321;
+  opacity: 0.7;
   text-align: center;
   font-family: 'Azeret Mono';
   font-size: 16px;
@@ -232,10 +253,17 @@ line-height:26px;
 } */
 .top-left h4 {
   margin: 10px auto !important;
+  color: rgba(13, 19, 33, 0.70);
+font-family: "Azeret Mono";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px; /* 150% */
 }
 .top-left h6 {
   margin: 10px auto !important;
   font-size: 16px;
+  opacity: 0.7;
   line-height: 20px;
 }
 .top-left button {
@@ -274,16 +302,21 @@ line-height:26px;
 .mid-left {
   padding: 3.767px;
 }
-/* /* . mid-right h4{
+mid-right h4{
 color: rgba(13, 19, 33, 0.70);
 font-family: "Azeret Mono";
 font-size: 24px;
+font-weight: 700;
+font-style: normal;
+line-height: 36px;
+}
 /* font-style: normal; */
 /* font-weight: 700;
 line-height: 36px;  */
 /* }  */
-/* .mid-right h5{
+.mid-right h6{
   color: #0D1321;
+  opacity: 0.7;
 font-family: "Azeret Mono";
 font-size: 16px;
 font-style: normal;
@@ -294,13 +327,13 @@ line-height: 26px;
   width: 1140px;
   height: 775px;
   margin: 80px auto;
-  border: 2px solid yellowgreen;
+  /* border: 2px solid yellowgreen; */
 }
 .insp-top {
   width: 1140px;
   height: 161px;
   margin: 0 auto;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .insp-top h2 {
   color: #0d1321;
@@ -313,6 +346,7 @@ line-height: 26px;
 }
 .insp-top p {
   color: #0d1321;
+  opacity: 0.7;
   text-align: center;
   font-family: 'Azeret Mono';
   font-size: 16px;
@@ -337,20 +371,20 @@ iframe {
   width: 1140px;
   height: 460px;
   margin: 151px auto;
-  border: 2px solid blueviolet;
+  /* border: 2px solid blueviolet; */
   display: flex;
   flex-direction: column;
 }
 .current-target-top {
   width: 946px;
   height: 113px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin: 0 auto;
 }
 .current-target-bottom {
   width: 1140px;
   height: 300px;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   margin-top: 48px;
   display: flex;
   gap: 24px;
@@ -367,6 +401,7 @@ iframe {
 }
 .current-target-top p {
   color: #0d1321;
+  opacity: 0.7;
   padding-top: 15px;
   text-align: center;
   font-family: 'Azeret Mono';
@@ -378,7 +413,7 @@ iframe {
 .html-container {
   width: 364px;
   height: 300px;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   padding: 40px 40px 40px 40px;
   border-radius: 16px;
   background: rgba(255, 76, 30, 0.05);
@@ -387,7 +422,7 @@ iframe {
 .css-container {
   width: 364px;
   height: 300px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   border-radius: 16px;
   background: rgba(0, 76, 232, 0.05);
   box-sizing: border-box;
@@ -396,7 +431,7 @@ iframe {
 .js-container {
   width: 364px;
   height: 300px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   box-sizing: border-box;
   padding: 40px 40px 40px 40px;
   border-radius: 16px;
@@ -404,6 +439,7 @@ iframe {
 }
 .html-container p {
   color: #0d1321;
+  opacity: 0.7;
   font-family: 'Azeret Mono';
   font-size: 16px;
   font-style: normal;
@@ -445,6 +481,7 @@ text-decoration-line: underline;
 }
 .css-container p {
   color: #0d1321;
+  opacity: 0.7;
   font-family: 'Azeret Mono';
   font-size: 16px;
   font-style: normal;
@@ -469,6 +506,7 @@ text-decoration-line: underline;
 }
 .js-container p {
   color: #0d1321;
+  opacity: 0.7;
   font-family: 'Azeret Mono';
   font-size: 16px;
   font-style: normal;
@@ -478,7 +516,7 @@ text-decoration-line: underline;
 .support-container {
   width: 1140px;
   height: 313px;
-  border: 2px solid saddlebrown;
+  /* border: 2px solid saddlebrown; */
   margin: 0 auto;
   /* background-image:url(./assets/handshake.jpg); */
   border-radius: 16px;
@@ -497,7 +535,7 @@ text-decoration-line: underline;
 .support-top {
   width: 730px;
   height: 105px;
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   margin-top: 64px;
   margin-left: 205px;
 }
@@ -505,6 +543,7 @@ text-decoration-line: underline;
   color: #fff;
   text-align: center;
   margin-top: 0;
+  padding-top: 64px;
   margin-bottom: 16px;
   font-family: 'Azeret Mono';
   font-size: 32px;
@@ -514,6 +553,7 @@ text-decoration-line: underline;
 }
 .support-top p {
   color: #fff;
+  opacity: 0.7;
   text-align: center;
   font-family: 'Azeret Mono';
   font-size: 16px;
@@ -532,6 +572,8 @@ text-decoration-line: underline;
   padding-top: 19px;
   padding-left: 20px;
   padding-bottom: 19px;
+  /* margin-top: 50px; */
+  /* margin-bottom: 64px; */
   margin-right: 16px;
   border-radius: 8px;
   border: 1px solid rgba(13, 19, 33, 0.15);
@@ -542,7 +584,8 @@ text-decoration-line: underline;
   justify-content: center;
   margin-top: 24px;
   height: 57px;
-  margin-bottom: 64px;
+  /* margin-bottom: 64px; */
+  margin-top: 80px;
 }
 .submit-button {
   height: 57px;
@@ -563,7 +606,7 @@ text-decoration-line: underline;
 }
 .footer-container {
   width: 1140px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin: 80px auto 0;
   align-items: center;
   display: flex;
